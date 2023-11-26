@@ -7,5 +7,5 @@ $ cd ./setup-eureka
 
 $ chmod +x ./setup-ubuntu-desktop.sh
 $ ./setup-ubuntu-desktop.sh # The system will be rebooted after this command completes execution.
-$ ./setup-cuda.sh
+$ ./setup-cuda1.sh
 ```
