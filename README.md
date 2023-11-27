@@ -7,10 +7,13 @@ $ cd ./setup-eureka
 
 $ chmod +x ./setup-ubuntu-desktop.sh
 $ chmod +x ./setup-cuda1.sh
+$ chmod +x ./setup-cuda2.sh
 $ ./setup-ubuntu-desktop.sh # The system will be rebooted after this command completes execution.
 $ ./setup-cuda1.sh # The system will be rebooted after this command completes execution.
 
 # Install CUDA drivers
 $ sudo ubuntu-drivers install nvidia:535
 $ sudo reboot
+
+$ ./setup-cuda2.sh
 ```
