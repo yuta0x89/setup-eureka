@@ -1,17 +1,19 @@
 
 The files of this repository are used for setting up [Eureka](https://github.com/eureka-research/Eureka).
 
+## Confirure remote desktop
 ```
 $ git clone https://github.com/yuta0x89/setup-eureka.git
 $ cd ./setup-eureka
 
 $ chmod +x ./*.sh
 $ ./setup-ubuntu-desktop.sh # The system will be rebooted after this command completes execution.
-$ wget https://downloads.realvnc.com/download/file/vnc.files/VNC-Server-7.8.0-Linux-x64.deb
-$ sudo dpkg -i VNC-Server-7.8.0-Linux-x64.deb
-$ sudo apt-get install -f
-$ 
+```
 
+Configure the Chrome Remote Desktop service and Connect to your Ubuntu Desktop according to [here](https://ubuntu.com/blog/launch-ubuntu-desktop-on-google-cloud)
+
+## Configure cuda driver
+```
 $ ./setup-cuda1.sh # The system will be rebooted after this command completes execution.
 
 # Install CUDA drivers
