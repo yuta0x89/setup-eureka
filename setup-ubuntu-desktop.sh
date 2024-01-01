@@ -8,7 +8,7 @@ sudo apt install -y wget tasksel
 
 # Download and install the Debian Linux Chrome Remote Desktop installation package:
 wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
-sudo apt-get install --assume-yes ./chrome-remote-desktop_current_amd64.deb
+sudo apt install -y ./chrome-remote-desktop_current_amd64.deb
 
 # Install the Ubuntu desktop environment
 sudo tasksel install ubuntu-desktop
